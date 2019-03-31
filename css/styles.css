@@ -1,0 +1,45 @@
+body {
+    background-color: gray;
+}
+
+h2 {
+    color: red;
+}
+
+#quizeus {
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+p {
+    padding: 22px;
+    font-style: normal;
+}
+.btn {
+    float: right;
+    background-color: orange;
+    border: 6px;
+    color: white;
+    padding: 22px;
+    font-size: 13px;
+    margin: 6px;
+}
+#submit {
+    text-align: right;
+    padding: 22px;
+}
+#ugot {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    background-color: white;
+    color: lime;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: fixed;
+    margin-top: 450px;
+    margin-left: 100px;
+}
+.opensesame {
+  display: none;
+}
