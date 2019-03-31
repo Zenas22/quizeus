@@ -1,9 +1,9 @@
 body {
-    background-color: gray;
+    background-color: #E8DF94;
 }
 
-h2 {
-    color: red;
+h1 {
+    color: #C70039;
 }
 
 #quizeus {
@@ -17,9 +17,9 @@ p {
 }
 .btn {
     float: right;
-    background-color: orange;
+    background-color: #581845;
     border: 6px;
-    color: white;
+    color: #FFC300;
     padding: 22px;
     font-size: 13px;
     margin: 6px;
@@ -29,16 +29,12 @@ p {
     padding: 22px;
 }
 #ugot {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    background-color: white;
-    color: lime;
+    font-size: 24px;
+    background-color: #581845;
+    color: #FFC300;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    position: fixed;
-    margin-top: 450px;
-    margin-left: 100px;
+    padding: 140px;
+    margin: 90px;
 }
 .opensesame {
   display: none;
