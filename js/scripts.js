@@ -21,11 +21,13 @@ var ishirini = parseInt($("input:radio[name=ishirini]:checked").val());
 var result = moja + mbili + tatu + nne + tano + sita + saba + nane + tisa + kumi + kumi1 + kumi2 + kumi3 + kumi4 + kumi5 + kumi6 + kumi7 + kumi8 + kumi9 + ishirini;
 
 //back end logic
+
+
 $(document).ready(function() {
   $("#quizeus").submit(function(event) {
     event.preventDefault();
     $("#ugot").text(result);
-    alert(result);
+    //alert(result);
 
     if(result > 80) {
       $("#ugot").text("You got " + result + "%" + ".Keep up the good work!")
@@ -36,11 +38,5 @@ $(document).ready(function() {
     else {
       $("#ugot").text("Please retake the test. You had below what was required.");
     }
-  });
-});
-
-$(document).ready(function() {
-  $("#quizeus").submit(function(event) {
-    $("#ugot").show();
   });
 });
