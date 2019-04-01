@@ -28,7 +28,8 @@ This website serves as an online javascript quiz made with html, a little of CSS
 a lot of Javascript.
 
 Install by forking the github repo through your github account and opening up
-the website link provided in its description.
+the website link provided in its description. This link would also help
+https://zenas22.github.com/quizeus
 ===
 
 It was created on HTML and CSS and JavaScript to
